@@ -1,0 +1,20 @@
+/globalField/verbose 1
+/globalField/setValue 0 0 0 tesla
+/gun/particle e-
+/gun/energy 300 MeV
+/run/beamOn 0
+/vis/scene/notifyHandlers scene-0
+/process/list
+/process/inactivate muIoni
+/run/physicsModified
+/process/inactivate eBrem
+/run/physicsModified
+/process/inactivate hBrems
+/run/physicsModified
+/particle/list
+/gun/particle mu-
+/process/inactivate muBrems
+/run/physicsModified
+/gun/energy 20 MeV
+/globalField/setValue 0.0 0.05 0.0 tesla
+/run/beamOn 20
