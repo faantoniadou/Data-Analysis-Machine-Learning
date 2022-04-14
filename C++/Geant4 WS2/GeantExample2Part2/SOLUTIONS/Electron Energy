@@ -1,0 +1,5 @@
+Electron energy:
+using electrons, 50 events and 500 MeV:
+
+s1809625@cplab220:~/DAML/WS3/GeantExample2Part2$ python3 energy_fraction.py 
+Fraction of energy deposited by electrons = 0.5352089973482014
